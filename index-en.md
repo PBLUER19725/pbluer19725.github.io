@@ -17,4 +17,4 @@
 
 ## How to keep in touch with us?
 - We have Bilibili account. You can watch our latest videos there.
-- If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto://ftc19725@outlook.com)
+- If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto:ftc19725@outlook.com)
