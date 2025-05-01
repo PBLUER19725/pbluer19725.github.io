@@ -13,4 +13,8 @@
 
    3. **Business & Outreach Team**  
       - Manages sponsorship acquisition, public relations, and brand promotion.  
-      - Produces multimedia content (photography/videography) and maintains social media platforms for team visibility.
+      - Produces multimedia content (photography/videography) and maintains social media platforms for team visibility.    
+
+## How to keep in touch with us?
+- We have Bilibili account. You can watch our latest videos there.
+- If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto://ftc19725@outlook.com)
