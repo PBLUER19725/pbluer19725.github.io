@@ -13,4 +13,4 @@
 
    3. **Business & Outreach Team**  
       - Manages sponsorship acquisition, public relations, and brand promotion.  
-      - Produces multimedia content (photography/videography), coordinates community STEM events, and maintains social media platforms for team visibility.
+      - Produces multimedia content (photography/videography) and maintains social media platforms for team visibility.
