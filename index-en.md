@@ -17,4 +17,5 @@
 
 ## How to keep in touch with us?
 - We have Bilibili account. You can watch our latest videos [here](https://b23.tv/yDl8OAU)(shared with FRC5515).
-- If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto:ftc19725@outlook.com)
+- If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto:ftc19725@outlook.com)  
+- Follow us! Search ***FTC19725*** using WeChat.
