@@ -1,7 +1,7 @@
 # Welcome to the official Website of BluePower Robotics!
 ## Who are we?
 - We are FTC team 19725 in HIGH SCHOOL AFFILIATED TO SHANGHAI JIAOTONG UNIVERSITY.
-- We are made up of many students in grade 1 and 2 with teacher Zhu and Sun.
+- We are made up of many students in grade 1 and 2 with teacher *Zhu* , *Ma* and *Sun*.
 - The team consists of three groups, including **Programming & Electronics Team**, **Engineering & Mechanics Team** and **Business & Outreach Team**.  
    1. **Programming & Electronics Team**  
       - Focuses on robot software development, sensor integration, and electrical system maintenance.  
