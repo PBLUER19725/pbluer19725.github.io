@@ -16,5 +16,5 @@
       - Produces multimedia content (photography/videography) and maintains social media platforms for team visibility.    
 
 ## How to keep in touch with us?
-- We have Bilibili account. You can watch our latest videos there.
+- We have Bilibili account. You can watch our latest videos [here](https://b23.tv/yDl8OAU).
 - If you want to chat with us, you can use email. [Mail To Our Email: FTC19725@outlook.com](mailto:ftc19725@outlook.com)
