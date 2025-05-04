@@ -2,4 +2,4 @@
 
 The blogs we write is here.
 
-1. [Our codes!](/20250504-ourCodes!)
+1. [Our codes!](/20250504-ourCodes!.html)
