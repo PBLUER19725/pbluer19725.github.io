@@ -1,4 +1,4 @@
-# pbluer19725.github.io/zh/blogs
+# blogs 目录
 
 以下是我们的博客。
 
