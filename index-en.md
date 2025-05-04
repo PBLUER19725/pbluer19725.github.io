@@ -25,4 +25,4 @@
 
 ## Visit our blogs!
 
-- visit our blogs [here](./blogs/)
+- visit our blogs [here](./en/blogs/)
