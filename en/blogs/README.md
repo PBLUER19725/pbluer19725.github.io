@@ -1,5 +1,5 @@
-# pbluer19725.github.io/en/blogs
+# blogs catalog
 
 The blogs we write is here.
 
-1. [Our codes!](./20250504-ourCodes!.html)
+1. [Our codes!](./20250504-ourCodes!.html) - 2025/05/04
