@@ -171,9 +171,7 @@ adb -help
   - 使用大田宫接口转接线连接。
 
 ### h) MINI USB
-- **用途**：
-  - 连接 Expansion Hub 至 Control Hub。
-  - 在 REV Hardware Client 中始终识别为 Expansion Hub。
+- mini usb口无论在Control Hub还是Expansion Hub上都是连接Expansion Hub部分的接口,在REV Hardware Client中总是会显示为Expansion Hub.你可以使用该接口将Expansion Hub接入Control Hub(如果Control Hub的Android部分无法启动,你也可以将其当作Expansion Hub使用,但想必没有人会冒着违规的风险这么做).
 
 ### i) USB OTG & HOST
 - **区别**：
