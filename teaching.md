@@ -196,6 +196,8 @@ adb -help
 3. **跨平台支持**：兼容不同操作系统。
 4. **灵活组网**：支持 P2P 和 Group 模式。
 
+---
+
 ## 4. Git版本管理
 
 ### **1. Git 简介**
@@ -203,8 +205,6 @@ Git 是一个**分布式版本控制系统**，用于跟踪文件变化（如代
 - **版本管理**：记录每次修改，可回溯到任意历史版本。
 - **分支管理**：创建独立分支开发新功能，不影响主代码。
 - **协作开发**：多人共享代码仓库，合并修改。
-
----
 
 ### **2. 安装 Git**
 - **Windows**：下载 [Git for Windows](https://git-scm.com/download/win)，默认选项安装。
@@ -216,16 +216,12 @@ Git 是一个**分布式版本控制系统**，用于跟踪文件变化（如代
 git --version
 ```
 
----
-
 ### **3. 初始配置**
 配置用户名和邮箱（用于提交记录）：
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
-
----
 
 ### **4. 基础操作**
 #### **4.1 创建仓库**
@@ -256,8 +252,6 @@ git log                   # 查看完整提交历史
 git log --oneline         # 简洁模式
 ```
 
----
-
 ### **5. 分支管理**
 #### **5.1 创建与切换分支**
 ```bash
@@ -282,8 +276,6 @@ git merge new-branch       # 将 new-branch 合并到当前分支
 git add resolved-file.txt
 git commit -m "解决合并冲突"
 ```
-
----
 
 ### **6. 远程仓库（以 GitHub 为例）**
 #### **6.1 关联远程仓库**
@@ -313,8 +305,6 @@ git fetch origin
 git pull origin main
 ```
 
----
-
 ### **7. 撤销操作**
 #### **7.1 撤销未提交的修改**
 ```bash
@@ -330,8 +320,6 @@ git reset --soft HEAD~1
 # 彻底删除上一次提交（谨慎使用！）
 git reset --hard HEAD~1
 ```
-
----
 
 ### **8. 高级技巧**
 #### **8.1 储藏修改（Stash）**
@@ -357,14 +345,10 @@ node_modules/
 .DS_Store
 ```
 
----
-
 ### **9. 图形化工具（可选）**
 - **GitKraken**：跨平台 Git 图形客户端。
 - **Sourcetree**：免费的 Git 和 Mercurial 客户端。
 - **VS Code 内置 Git 工具**：编辑器直接操作。
-
----
 
 ### **10. 学习资源**
 - **官方文档**：[Git Book](https://git-scm.com/book/)
