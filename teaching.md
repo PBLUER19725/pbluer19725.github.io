@@ -195,3 +195,178 @@ adb -help
 2. **高速通信**：与普通 WiFi 速度相同。
 3. **跨平台支持**：兼容不同操作系统。
 4. **灵活组网**：支持 P2P 和 Group 模式。
+
+## 4. Git版本管理
+
+### **1. Git 简介**
+Git 是一个**分布式版本控制系统**，用于跟踪文件变化（如代码、文档），支持多人协作开发。核心功能包括：
+- **版本管理**：记录每次修改，可回溯到任意历史版本。
+- **分支管理**：创建独立分支开发新功能，不影响主代码。
+- **协作开发**：多人共享代码仓库，合并修改。
+
+---
+
+### **2. 安装 Git**
+- **Windows**：下载 [Git for Windows](https://git-scm.com/download/win)，默认选项安装。
+- **Mac**：使用 Homebrew：`brew install git` 或下载 [Git for Mac](https://git-scm.com/download/mac)。
+- **Linux**：使用包管理器安装，如 Ubuntu：`sudo apt-get install git`。
+
+安装后验证：
+```bash
+git --version
+```
+
+---
+
+### **3. 初始配置**
+配置用户名和邮箱（用于提交记录）：
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+---
+
+### **4. 基础操作**
+#### **4.1 创建仓库**
+```bash
+# 初始化新仓库
+git init
+
+# 克隆远程仓库（如 GitHub 项目）
+git clone https://github.com/user/repo.git
+```
+
+#### **4.2 提交更改**
+```bash
+# 查看当前文件状态
+git status
+
+# 添加文件到暂存区
+git add filename          # 添加单个文件
+git add .                 # 添加所有修改
+
+# 提交到本地仓库
+git commit -m "提交说明"
+```
+
+#### **4.3 查看历史记录**
+```bash
+git log                   # 查看完整提交历史
+git log --oneline         # 简洁模式
+```
+
+---
+
+### **5. 分支管理**
+#### **5.1 创建与切换分支**
+```bash
+git branch                  # 查看所有分支
+git branch new-branch       # 创建新分支
+git checkout new-branch    # 切换到新分支
+git switch new-branch       # 同上（Git 2.23+）
+
+# 创建并切换分支（简写）
+git checkout -b new-branch
+```
+
+#### **5.2 合并分支**
+```bash
+git checkout main          # 切换到主分支
+git merge new-branch       # 将 new-branch 合并到当前分支
+```
+
+#### **5.3 解决冲突**
+当合并冲突时，手动编辑文件中的 `<<<<<<<` 标记，解决后提交：
+```bash
+git add resolved-file.txt
+git commit -m "解决合并冲突"
+```
+
+---
+
+### **6. 远程仓库（以 GitHub 为例）**
+#### **6.1 关联远程仓库**
+```bash
+# 添加远程仓库（命名为 origin）
+git remote add origin https://github.com/user/repo.git
+
+# 查看远程仓库列表
+git remote -v
+```
+
+#### **6.2 推送与拉取**
+```bash
+# 推送本地分支到远程仓库
+git push origin main
+
+# 拉取远程仓库最新代码
+git pull origin main
+```
+
+#### **6.3 从远程仓库更新本地**
+```bash
+# 获取远程分支更新（不自动合并）
+git fetch origin
+
+# 拉取并合并到当前分支
+git pull origin main
+```
+
+---
+
+### **7. 撤销操作**
+#### **7.1 撤销未提交的修改**
+```bash
+git checkout -- filename    # 丢弃某个文件的修改
+git restore filename        # Git 2.23+ 新语法
+```
+
+#### **7.2 撤销提交**
+```bash
+# 撤销上一次提交，保留修改
+git reset --soft HEAD~1
+
+# 彻底删除上一次提交（谨慎使用！）
+git reset --hard HEAD~1
+```
+
+---
+
+### **8. 高级技巧**
+#### **8.1 储藏修改（Stash）**
+临时保存未提交的修改：
+```bash
+git stash           # 储藏当前修改
+git stash pop       # 恢复最近储藏的修改
+```
+
+#### **8.2 标签（Tag）**
+标记重要版本：
+```bash
+git tag v1.0.0               # 创建标签
+git push origin v1.0.0       # 推送标签到远程
+```
+
+#### **8.3 忽略文件（.gitignore）**
+创建 `.gitignore` 文件，列出需忽略的文件/文件夹：
+```
+# 示例
+node_modules/
+*.log
+.DS_Store
+```
+
+---
+
+### **9. 图形化工具（可选）**
+- **GitKraken**：跨平台 Git 图形客户端。
+- **Sourcetree**：免费的 Git 和 Mercurial 客户端。
+- **VS Code 内置 Git 工具**：编辑器直接操作。
+
+---
+
+### **10. 学习资源**
+- **官方文档**：[Git Book](https://git-scm.com/book/)
+- **交互式练习**：[Learn Git Branching](https://learngitbranching.js.org)
+- **GitHub Guides**：[GitHub 指南](https://guides.github.com/)
