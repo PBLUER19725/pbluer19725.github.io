@@ -1,6 +1,6 @@
 # blogs catalog
 
-The blogs we write is here.
+The blogs we write are here.
 
 2. [How to repair the Control Hub WiFi](./20250511-howToRepairTheControlHubWiFi.html) - 2025/05/11
 
